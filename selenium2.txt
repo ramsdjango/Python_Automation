@@ -1,0 +1,22 @@
+﻿1. About Selenium
+2. Element Identifiers
+3. Login Gmail
+4. Handle Popups or alerts
+5. Double click operations(Actionchains)
+6. Scroll down
+7. Switch to another tab
+8. Locators
+9. POM(Page Object Model)
+
+10. Get window title and text from
+    element
+11. Set Windows size,position
+12. Get window screenshot
+13. Waits(Implicit and Explicit)
+14. Create Dynamic xpath
+15. Select 1.drop down values
+	   2.radio buttons
+           3.checkbox
+	   4.screenshot
+16. Get table data
+17. Switch to frame and windows
