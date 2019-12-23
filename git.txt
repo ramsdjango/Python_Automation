@@ -1,0 +1,106 @@
+1.git clone-:creates a git repository copy from a remote source
+2.git status-to know git status
+3.git add filename/directory-->add file changes in working directory
+4.git rm filename-removes files from your working directory
+5.git commit --amed-->to know current commit status
+6.git push -->it pushes all the modified objects to the remote repository
+7.git reset-->reset your working directory state of your last commit
+8.git pull-->it fetches the files from the remote repository and merges with local repository
+10.git checkout-->to checkout central repository
+____________________________________________________
+11.git branch--to list all branches
+12.git branch branchname-->to create a new branch
+13.git checkout-b branchname -->to create a new branch
+14.git checkout testing -->switched to branch testing
+15.git braanch -d testing-->deleted branch testing
+16.git branch -v--->to see last commit on each branch
+_____________________________________________________
+17.git stash save--->to save all changes
+18.git stash list--->to get all saved list
+19.git stash apply stash @{0}-->to apply changes
+______________________________________________________
+linux
+1.ls- list in list command
+2.ls-list of file
+3.ll -l
+4.ll -h
+5.pwd-present working directory
+6.cd-- change directory
+7.rm-remove files
+8.cp-->copy file
+9.mv--move or replace name
+10.mkdir-->create a diretory
+11.touch --to create  a file
+12.cat --to read the file
+13.grep--->it is used search files or strings or words
+14.find-->locates files based on user specified criteria
+15.ps-->to show the prosess status
+16.chmod-->change the access permission of file system
+17.sed--> iits stream editor and it can perform lot's of function on file like, searching, find and replace, insertion or deletion
+18.rmdir-->rmdir command is used remove empty directories from the filesystem in Linux
+19.ipconfig-->configure the kernel-resident network interfaces
+20.ssh-->secure encrypted connection between two hosts over an insecure network
+21.scp-->is used to transfer files and directories across the systems securely over the network. 
+22.su-->stands for substitute user is used by a computer user to execute commands with the privileges of another user account.
+23.kill-->kill is a command that is used in several popular operating systems to send signals to running processes.
+24.history-->to show you all of the last commands that have been recently used. 
+25.top--> that displays information about CPU and memory utilization.
+
+____________________________________________________________________________________________
+Jenkins
+________
+1.
+Jenkins is a free and open source "automation server". 
+Jenkins helps to "automate the non-human part of the software development process, 
+with continuous integration and facilitating technical aspects of continuous delivery. It is a server-based system that runs in servlet containers such as Apache Tomcat.
+It also allows you to continuously deliver your software by integrating with a large number of testing and deployment technologies
+___________________________________________________________________________________________________________
+2. Define the process of Jenkins
+First, a developer commits the code to the source code repository. Meanwhile, the Jenkins server checks the repository at regular intervals for changes.
+3.Soon after a commit occurs, the Jenkins server detects the changes that have occurred in the source code repository. Jenkins will pull those changes and will start preparing a new build.
+4.If the build fails, then the concerned team will be notified.
+5.If the build is successful, then Jenkins deploys the build in the test server.
+6.After testing, Jenkins generates feedback and then notifies the developers about the build and test results.
+7.It will continue to check the source code repository for changes made in the source code and the whole process keeps on repeating.
+__________________________________________________________________________________________________________
+3.Mention some of the useful plugins in Jenkins
+-->Maven 2 project
+-->Git
+-->Amazon EC2
+-->HTML publisher
+-->Copy artifact
+-->Join
+-->Green Balls
+_________________________________________________________________________________________________________
+4. What is the relation between Hudson and Jenkins?
+ What is the relation between Hudson and Jenkins?
+_________________________________________________________________________________________________________
+5.Mention what are the commands you can use to start Jenkins manually.
+For this answer I will suggest you go with the below-mentioned flow:
+To start Jenkins manually open Console/Command line, then go to your Jenkins installation directory. Over there you can use the below commands:
+
+Start Jenkins: jenkins.exe start
+Stop Jenkins: jenkins.exe stop
+Restart Jenkins: jenkins.exe restart
+________________________________________________________________________________________________________
+6.How Can You Clone A Git Repository Via Jenkins?
+If you want to clone a Git repository via Jenkins, you have to enter the e-mail and user name for your Jenkins system. Switch into your job directory and execute the “git config” command for that.
+___________________________________________________________________________________________________________
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+ 
