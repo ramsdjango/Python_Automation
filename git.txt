@@ -7,7 +7,8 @@
 7.git reset-->reset your working directory state of your last commit
 8.git pull-->it fetches the files from the remote repository and merges with local repository
 10.git checkout-->to checkout central repository
-____________________________________________________
+_________________
+ksdfhsdflksdjflksdfjlksdjflksdjf___________________________________
 11.git branch--to list all branches
 12.git branch branchname-->to create a new branch
 13.git checkout-b branchname -->to create a new branch
