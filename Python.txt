@@ -1,0 +1,91 @@
+1)
+s="mississippi"
+d={}
+for i in s:
+	if i in d:
+		d[i]+=1
+        else:
+		d[i]=1
+print(d)
+______________________________________________
+2)
+s="mississippi"
+d={'m':0,'i':0,'s':0,:'p':0}
+for i in s:
+	if i=='m':
+		d['m']=d['m']+1
+	elif:
+		d['i']=d['i']+1
+	elif:
+		d['s']=d['s']+1
+	elif:
+		d['p']=d['p']+1
+print(d)
+
+________________________________________________
+3)
+Addding of two lists
+l=[1,2,3,4,5]
+l1=[2,3,4,5,6]
+res=[]
+for i in range(0,len(l)):
+		res.append(l[i]+l1[i])
+print(res)
+________________________________________________
+4)
+num=12345
+rev=0
+while num>0:
+	dig=num%10
+	rev=rev*10+dig
+	num=num//10
+print(rev)
+_________________________________________________
+5)oops
+a)Method overloading,b)method overriding
+
+-->mol means same method name with diffrent arguments
+--> mor means same method name with same attributes
+inheritance-:we can access properties from one class to another calss .parants calss to chaild class
+polymorphism means->diffrent operations performs in single form 
+Abstraction-:to hide the backgraound details of the data
+encaptulation:-to binding the data purppose we use enacptualation
+
+Abstract class-:it is a method that declared.but it contains no implementation,may not be intialized 
+Inter face-:it is like a class to declare methods and values
+class A:
+	def show(self):
+		print("hello")
+class B(A):
+	def show(self):
+		print("hi")
+obj=B():
+obj.show()
+__________________________________________________
+6)
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
