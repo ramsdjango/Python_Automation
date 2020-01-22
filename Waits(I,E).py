@@ -1,4 +1,4 @@
-'''from selenium import webdriver
+from selenium import webdriver
 driver=webdriver.Chrome()
 driver.get("http://newtours.demoaut.com//")
 #wait some time
@@ -6,11 +6,11 @@ driver.implicitly_wait(15)#implicitly wait
 assert "Welcome: Mercury Tours" in driver.title
 driver.find_element_by_name("userName").send_keys("mercury")
 driver.find_element_by_name("password").send_keys("mercury")
-driver.find_element_by_name("login").click()'''
+driver.find_element_by_name("login").click()
 
 #explici wait()
 
-from selenium import webdriver
+'''from selenium import webdriver
 from selenium.webdriver.common.by import By
 import time
 from selenium.webdriver.support import expected_conditions as EC
@@ -45,7 +45,7 @@ wait=WebDriverWait(driver,10)
 
 element=wait.until(EC.element_to_be_clickable((By.XPATH,"//*[@id='stopFilter_stops-0']")))
 
-
+'''
 
 
 
